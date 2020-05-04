@@ -15,10 +15,10 @@ class School
   end
 
   def grade
-
+    add_student.grade
   end
 
   def sort(name)
-    
+
   end
 end
