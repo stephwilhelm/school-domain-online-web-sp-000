@@ -16,6 +16,7 @@ class School
   end
 
   def sort(student_name)
+    sort = {}
     roster.sort[student_name]
   end
 end
