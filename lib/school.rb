@@ -15,7 +15,7 @@ class School
   end
 
   def grade
-    add_student.fetch {grade}
+    add_student.fetch{grade}
   end
 
   def sort(name)
