@@ -14,7 +14,7 @@ class School
     end
   end
 
-  def grade
+  def grade(grade)
     add_student.grade
   end
 
