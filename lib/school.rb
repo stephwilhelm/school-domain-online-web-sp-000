@@ -15,7 +15,7 @@ class School
   end
 
   def grade(grade)
-    add_student.grade
+    add_student.grade = grade
   end
 
   def sort(name)
