@@ -15,7 +15,7 @@ class School
   end
 
   def grade
-    hash.fetch.grade
+    grade.fetch
   end
 
   def sort(name)
